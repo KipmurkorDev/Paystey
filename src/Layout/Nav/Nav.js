@@ -26,55 +26,50 @@ function NavBar() {
     return (
         <Navbar expand="lg" style={{ backgroundColor: "#CAAFA8" }}>
             <Container>
-                <Navbar.Brand to="/" className='h1 text-light'>Paystey</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/" className='h1 text-light'>Paystey</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
                     <Nav className="h6">
                         <Nav.Link as={Link} to="/" className='py-sm-3 px-sm-4 text-light'>Home</Nav.Link>
                         <NavDropdown title={<span className="text-light my-auto">Shop</span>} eventKey="0" show={select} onMouseEnter={handleShow} onMouseLeave={handleHide} className='py-sm-2 px-sm-3'>
-                            <NavDropdown.Item as={Link} to="/health-beauty">
-                                Health & Beauty
+                            <NavDropdown.Item as={Link} to="/furniture">
+                                Furniture
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/supermarket">
-                                Supermarket
+                            <NavDropdown.Item as={Link} to="/outdoor">
+                                Outdoor
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/home-office">
-                                Home & Office
+                            <NavDropdown.Item as={Link} to="/kitchen">
+                                Kitchen
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/appliance">
-                                Appliances
+                            <NavDropdown.Item as={Link} to="/bath-bedding">
+                                Bath & Bedding
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/computer-electronics">
-                                Computer & Electronics
+                            <NavDropdown.Item as={Link} to="/lighting">
+                                Lighting
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/fashion">
-                                Fashion
+                            <NavDropdown.Item as={Link} to="/widoow-door">
+                                Widow & Dooor
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/baby-products">
-                                Baby products
-                            </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/phones-tablets">
-                                Phones & Tablets
-                            </NavDropdown.Item>
+
                         </NavDropdown>
                         <NavDropdown title={<span className="text-light my-auto">NFT</span>} show={show} onMouseEnter={showDropdown} onMouseLeave={hideDropdown} className='py-sm-2 px-sm-3'>
                             <NavDropdown.Item as={Link} to="/basketball">
-                            Basketball
+                                Basketball
                             </NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/football">
-                            Football
+                                Football
                             </NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/pokemon">
-                            Pokemon
+                                Pokemon
                             </NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/soccer">
-                            Soccer
+                                Soccer
                             </NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/hockey">
-                            Hockey
+                                Hockey
                             </NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/baseball">
-                            Basball
+                                Basball
                             </NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link as={Link} to="/blog" className='py-sm-3 px-sm-4 text-light'>Blog</Nav.Link>
