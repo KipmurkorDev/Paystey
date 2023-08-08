@@ -30,21 +30,21 @@ function NavBar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
                     <Nav className="h6">
-                        <Nav.Link as={Link} to="/" className='py-sm-3 px-sm-4 text-light'>Home</Nav.Link>
-                        <NavDropdown title={<span className="text-light my-auto">Shop</span>} eventKey="0" show={select} onMouseEnter={handleShow} onMouseLeave={handleHide} className='py-sm-2 px-sm-3'>
-                            <NavDropdown.Item as={Link} to="/furniture">
+                        <Nav.Link as={Link} to="/" className='py-sm-3 px-sm-4 text-light footer-link '>Home</Nav.Link>
+                        <NavDropdown title={<span className="text-light my-auto footer-link">Shop</span>} eventKey="0" show={select} onMouseEnter={handleShow} onMouseLeave={handleHide} className='py-sm-2 px-sm-3'>
+                            <NavDropdown.Item as={Link} to="/furniture" >
                                 Furniture
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/outdoor">
+                            <NavDropdown.Item as={Link} to="/outdoor" >
                                 Outdoor
                             </NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/kitchen">
                                 Kitchen
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/bath-bedding">
+                            <NavDropdown.Item as={Link} to="/bath-bedding" >
                                 Bath & Bedding
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/lighting">
+                            <NavDropdown.Item as={Link} to="/lighting" >
                                 Lighting
                             </NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/widoow-door">
@@ -52,7 +52,7 @@ function NavBar() {
                             </NavDropdown.Item>
 
                         </NavDropdown>
-                        <NavDropdown title={<span className="text-light my-auto">NFT</span>} show={show} onMouseEnter={showDropdown} onMouseLeave={hideDropdown} className='py-sm-2 px-sm-3'>
+                        <NavDropdown title={<span className="text-light my-auto footer-link">NFT</span>} show={show} onMouseEnter={showDropdown} onMouseLeave={hideDropdown} className='py-sm-2 px-sm-3'>
                             <NavDropdown.Item as={Link} to="/basketball">
                                 Basketball
                             </NavDropdown.Item>
@@ -72,12 +72,12 @@ function NavBar() {
                                 Basball
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link as={Link} to="/blog" className='py-sm-3 px-sm-4 text-light'>Blog</Nav.Link>
-                        <Nav.Link as={Link} to="/about" className='py-sm-3 px-sm-4 text-light'>About</Nav.Link>
+                        <Nav.Link as={Link} to="/blog" className='py-sm-3 px-sm-4 text-light footer-link"'>Blog</Nav.Link>
+                        <Nav.Link as={Link} to="/about" className='py-sm-3 px-sm-4 text-light footer-link"'>About</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <Nav>
-                    <Nav.Link as={Link} to="/search" className='py-sm-3 px-sm-2 text-light'>Search</Nav.Link>
+                    <Nav.Link as={Link} to="/search" className='py-sm-3 px-sm-2 text-light '>Search</Nav.Link>
                     <Nav.Link as={Link} to="/profile" className='py-sm-3 px-sm-2 text-light'>Profile</Nav.Link>
 
                 </Nav>

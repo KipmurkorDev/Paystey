@@ -4,7 +4,8 @@ import Preview1 from '../../Assests/Images/preview-1.jpg'
 import Preview2 from '../../Assests/Images/preview-2.jpg'
 import Preview3 from '../../Assests/Images/preview-3.jpg'
 import Preview4 from '../../Assests/Images/preview-4.jpg'
-
+import HomeGif from '../../Assests/Images/a828fe17f0ad917ef2b3d8c2903826fc.gif'
+import HomeGrown from '../../Assests/Images/home-grown.webp'
 function Home() {
 
     const [index, setIndex] = useState(0);
@@ -33,7 +34,7 @@ function Home() {
                     </Col>
                 </Row>
             </Col>
-            <Col className='text-center text-light mt-5 pt-5' style={{backgroundColor:"#CAAFA8"}}>
+            <Col className='text-center text-light mt-5 pt-5' style={{ backgroundColor: "#CAAFA8" }}>
                 <h1 className='h3 mb-4'>Must Haves </h1>
                 <p> Some of our favourite furnitures picks this week.</p>
                 <Carousel activeIndex={index} onSelect={handleSelect} >
@@ -73,15 +74,35 @@ function Home() {
                 </Carousel>
             </Col>
 
-            <Col>
+            <Col className='mt-5 pt-5 w-100'>
+                <Row>
+
+                    <img src={HomeGif} alt='gif-home' style={{ height: "600px" }} />
+
+                </Row>
 
 
-                Discover Trading Cards by Category
+            </Col>
+            <Col className='px-5' style={{ backgroundColor: "#FDF9F5" }}>
+                <Row>
+                    <Col className='w-50 text-center' style={{ paddingTop: "30%" }}>
+                        <h1 className='text-dark'>Homegrown</h1>
+                        <p>
+                            We love all of our beautiful brands here at Paystey but there is a special place in our heart for the Austrilia brands.
+                            We have made it easy for you to find a little about each of these amazing brands.
+                            Head over to our Homegrown page where we give you a little insight into what makes each of these brands so special.
+                        </p>
+                        <button className="btn btn-dark">Find Out More</button>
 
-
+                    </Col>
+                    <Col className='w-75' style={{ paddingTop: "10%" }}>
+                        <img src={HomeGrown} alt='home-grown' height={800} className='w-100' />
+                    </Col>
+                </Row>
             </Col>
         </Container>
     )
 }
 
 export default Home
+

@@ -11,3 +11,21 @@
   background-position: center center;
   padding-left: 0;
 }
+.app{
+  background-color: #CAAFA8;
+}
+.footer-link{
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 16px;
+  }
+  .footer-link:hover{
+      text-decoration: underline solid white;
+      color: white;
+  }
+  .social-media{
+    padding-left: 10px;
+    text-decoration: none;
+    color: none;
+  }
