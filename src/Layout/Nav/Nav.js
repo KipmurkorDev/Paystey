@@ -77,7 +77,7 @@ function NavBar() {
                     </Nav>
                 </Navbar.Collapse>
                 <Nav>
-                    <Nav.Link as={Link} to="/search" className='py-sm-3 px-sm-2 text-light '>Search</Nav.Link>
+                    <Nav.Link as={Link} to="/search" className='py-sm-3 px-sm-2 text-light'>Search</Nav.Link>
                     <Nav.Link as={Link} to="/profile" className='py-sm-3 px-sm-2 text-light'>Profile</Nav.Link>
 
                 </Nav>
