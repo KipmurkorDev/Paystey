@@ -15,7 +15,6 @@ function Home() {
     };
     return (
         <Container fluid style={{ paddingLeft: "0%" }} className='overflow-hidden'>
-            <Col> THE DESIGN DESK </Col>
             <Col className='bg-image pt-5 ml-5'>
                 <Row className='px-3 g-col-6 h1'>
                     <p className='mx-5'>New & Designed

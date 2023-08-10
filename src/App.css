@@ -7,7 +7,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  /* height: 600px; */
   background-size: 100%;
   background-position: center center;
   padding-left: 0;
@@ -51,5 +50,8 @@
   .home-grown-img {
     height: 400px;
     width:125%;
+  }
+  .bg-image{
+width: 700px;
   }
 }
