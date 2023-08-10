@@ -29,7 +29,7 @@ function Home() {
                         <p> The World's Largest
                             Collection of Trading Cards.
                         </p>
-                        <Button type="button" className="btn btn-dark w-25 mx-3 btn-lg mb-5">Shop Collection</Button>
+                        <Button type="button" className="btn btn-dark w-25 mx-3 mb-5">Shop Collection</Button>
                     </Col>
                 </Row>
             </Col>
