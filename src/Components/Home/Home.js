@@ -89,7 +89,7 @@ function Home() {
                         </p>
                         <button className="btn btn-dark mb-5">Find Out More</button>
                     </Col>
-                    <Col className='w-75' style={{ paddingTop: "20%" }}>
+                    <Col className='w-75' style={{ paddingTop: "30%" }}>
                         <img src={HomeGrown} alt='home-grown' className='home-grown-img' />
                     </Col>
                 </Row>
