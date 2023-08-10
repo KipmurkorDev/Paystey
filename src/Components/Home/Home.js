@@ -23,7 +23,7 @@ function Home() {
                     </p>
                     <Button type="button" className="btn btn-dark w-25 mx-4 mb-5">Shop Sofas</Button>
                 </Row>
-                <Row className='py-5 text-dark'>
+                <Row className='py-5'>
                     <Col style={{ textAlign: 'right', marginRight: "30px" }}>
                         <h1> Non-fungible token</h1>
                         <p> The World's Largest
@@ -39,35 +39,26 @@ function Home() {
                 <Carousel activeIndex={index} onSelect={handleSelect} >
                     <Carousel.Item>
                         <img src={Preview1} alt='firt img' className="d-block w-100 home-img" />
-                        <Carousel.Caption >
+                        <Carousel.Caption className='text-white'>
                             <h3>Lounge Collections</h3>
-                            <p>Lounge in luxurious comfort with our collection of beautifully-crafted sofas and sectionals, in a variety of fabrics and leathers.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <Image src={Preview2} alt='second img' className="d-block w-100 home-img" />
-                        <Carousel.Caption>
+                        <Carousel.Caption className='text-white'>
                             <h3>Axis Collection </h3>
-                            <p>The live-anywhere, do-anything sofa. This timeless collection invites families to pile on its comfortable cushions clad in high performance fabrics</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img src={Preview3} alt='third img' className="d-block w-100 home-img" />
-                        <Carousel.Caption>
+                        <Carousel.Caption className='text-white'>
                             <h3>Gather Collection</h3>
-                            <p>
-                                Everyone’s invited to Gather. This top-rated collection is our perfect
-                                mix of deep-seated, movie-night comfort and modern minimalism.
-                            </p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item className='text-white'>
                         <img src={Preview4} alt='fourth img' className="d-block w-100 home-img" />
                         <Carousel.Caption>
                             <h3>Bucktown Collection</h3>
-                            <p>
-                                This gorgeous Bucktown Living Room Collection by Jackson Furniture features plenty of cushioned comfort and style.
-                            </p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
@@ -75,7 +66,7 @@ function Home() {
 
             <Col className='mt-5 pt-5 w-100'>
                 <Row>
-                    <img src={HomeGif} alt='gif-home' className='home-img' />
+                    <img src={HomeGif} alt='gif-home' height={1000} className='home-img' />
                 </Row>
             </Col>
             <Col className='px-5' style={{ backgroundColor: "#FDF9F5" }}>
@@ -88,7 +79,7 @@ function Home() {
                         </p>
                         <button className="btn btn-dark mb-5">Find Out More</button>
                     </Col>
-                    <Col className='w-75' style={{ paddingTop: "10%" }}>
+                    <Col className='w-100' style={{ paddingTop: "10%" }}>
                         <img src={HomeGrown} alt='home-grown' className='home-grown-img' />
                     </Col>
                 </Row>
