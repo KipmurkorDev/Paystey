@@ -26,11 +26,11 @@ function NavBar() {
     return (
         <Navbar expand="lg" style={{ backgroundColor: "#CAAFA8" }}>
             <Container>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Brand as={Link} to="/" className='h1 text-light'>Paystey</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
                     <Nav className="h6">
-                        <Nav.Link as={Link} to="/" className='py-sm-3 px-sm-4 text-light footer-link '>Home</Nav.Link>
+                        <Nav.Link as={Link} to="/" className='py-sm-3 px-sm-3 text-light footer-link '>Home</Nav.Link>
                         <NavDropdown title={<span className="text-light my-auto footer-link">Shop</span>} show={select} onMouseEnter={handleShow} onMouseLeave={handleHide} className='py-sm-2 px-sm-3'>
                             <NavDropdown.Item as={Link} to="/furniture" >
                                 Furniture
@@ -72,13 +72,13 @@ function NavBar() {
                                 Basball
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link as={Link} to="/blog" className='py-sm-3 px-sm-4 text-light footer-link"'>Blog</Nav.Link>
-                        <Nav.Link as={Link} to="/about" className='py-sm-3 px-sm-4 text-light footer-link"'>About</Nav.Link>
+                        <Nav.Link as={Link} to="/blog" className='py-sm-3 px-sm-3 text-light footer-link"'>Blog</Nav.Link>
+                        <Nav.Link as={Link} to="/about" className='py-sm-3 px-sm-3 text-light footer-link"'>About</Nav.Link>
+                        <Nav.Link as={Link} to="/search" className='py-sm-3 px-sm-3 text-light'>Search</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <Nav>
-                    <Nav.Link as={Link} to="/search" className='py-sm-3 px-sm-2 text-light'>Search</Nav.Link>
-                    <Nav.Link as={Link} to="/profile" className='py-sm-3 px-sm-2 text-light'>Profile</Nav.Link>
+                    <Nav.Link as={Link} to="/profile" className='py-sm-3 px-sm-3 text-light font-weight-bold'>Login</Nav.Link>
 
                 </Nav>
             </Container>
