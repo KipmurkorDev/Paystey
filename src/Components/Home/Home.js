@@ -96,7 +96,7 @@ function Home() {
 
                     </Col>
                     <Col className='w-100' style={{ paddingTop: "10%" }}>
-                        <img src={HomeGrown} alt='home-grown' className='w-100 home-grown-img' />
+                        <img src={HomeGrown} alt='home-grown' className='home-grown-img' />
                     </Col>
                 </Row>
             </Col>
