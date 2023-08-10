@@ -1,9 +1,10 @@
 .dropdown-toggle::after {
-  display: none !important; 
+  display: none !important;
 }
-.bg-image{
+
+.bg-image {
   background-image: url('./Assests/Images/home-img.jpg');
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   /* height: 600px; */
@@ -11,36 +12,43 @@
   background-position: center center;
   padding-left: 0;
 }
-.app{
+
+.app {
   background-color: #CAAFA8;
 }
-.footer-link{
+
+.footer-link {
   text-decoration: none;
   display: block;
   color: white;
   font-size: 16px;
+}
+
+.footer-link:hover {
+  text-decoration: underline solid white;
+  color: white;
+}
+
+.social-media {
+  padding-left: 10px;
+  text-decoration: none;
+  color: none;
+}
+
+.home-img {
+  height: 550px;
+}
+
+.home-grown-img {
+  height: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+  .home-img {
+    height: 400px;
   }
-  .footer-link:hover{
-      text-decoration: underline solid white;
-      color: white;
+  .home-grown-img {
+    height: 300px;
+    width:300px;
   }
-  .social-media{
-    padding-left: 10px;
-    text-decoration: none;
-    color: none;
-  }
-  .home-img{
-    height: 550px;
-  }
-  .home-grown-img{
-    height: 600px;
-  }
-  @media only screen and (max-width: 768px) {
-    .home-img {
-      height: 400px;
-    }
-    .home-grown-img{
-      height: 300px;
-      width: 110%;
-    }
-  }
+}

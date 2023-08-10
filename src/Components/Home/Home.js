@@ -76,25 +76,20 @@ function Home() {
 
             <Col className='mt-5 pt-5 w-100'>
                 <Row>
-
                     <img src={HomeGif} alt='gif-home' className='home-img' />
-
                 </Row>
-
-
             </Col>
             <Col className='px-5' style={{ backgroundColor: "#FDF9F5" }}>
                 <Row>
-                    <Col className='w-50 text-center' style={{ paddingTop: "20%" }}>
+                    <Col className='w-25 text-center' style={{ paddingTop: "20%" }}>
                         <h1 className='text-dark'>Homegrown</h1>
                         <p>
                             We love all of our beautiful brands here at Paystey but there is a special place in our heart for the Austrilia brands.
                             We have made it easy for you to find a little about each of these amazing brands.
                         </p>
                         <button className="btn btn-dark">Find Out More</button>
-
                     </Col>
-                    <Col className='w-100' style={{ paddingTop: "10%" }}>
+                    <Col className='w-75' style={{ paddingTop: "10%" }}>
                         <img src={HomeGrown} alt='home-grown' className='home-grown-img' />
                     </Col>
                 </Row>
