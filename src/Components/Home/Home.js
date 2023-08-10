@@ -81,7 +81,7 @@ function Home() {
             </Col>
             <Col className='px-5' style={{ backgroundColor: "#FDF9F5" }}>
                 <Row>
-                    <Col className='w-25 text-center' style={{ paddingTop: "30%" }}>
+                    <Col className='w-25 text-center' style={{ paddingTop: "40%" }}>
                         <h1 className='text-dark'>Homegrown</h1>
                         <p>
                             We love all of our beautiful brands here at Paystey but there is a special place in our heart for the Austrilia brands.

@@ -26,7 +26,7 @@ function NavBar() {
     return (
         <Navbar expand="lg" style={{ backgroundColor: "#CAAFA8" }}>
             <Container>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Brand as={Link} to="/" className='h1 text-light'>Paystey</Navbar.Brand>
                 <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
                     <Nav className="h6">
@@ -79,7 +79,6 @@ function NavBar() {
                 </Navbar.Collapse>
                 <Nav>
                     <Nav.Link as={Link} to="/profile" className='py-sm-3 px-sm-3 text-light font-weight-bold footer-link'>Login</Nav.Link>
-
                 </Nav>
             </Container>
         </Navbar>
