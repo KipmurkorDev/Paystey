@@ -39,21 +39,21 @@ function Home() {
                 <p> Some of our favourite furnitures picks this week.</p>
                 <Carousel activeIndex={index} onSelect={handleSelect} >
                     <Carousel.Item>
-                        <img src={Preview1} alt='firt img' height={500} className="d-block w-100" />
+                        <img src={Preview1} alt='firt img' className="d-block w-100 home-img" />
                         <Carousel.Caption >
                             <h3>Lounge Collections</h3>
                             <p>Lounge in luxurious comfort with our collection of beautifully-crafted sofas and sectionals, in a variety of fabrics and leathers.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Image src={Preview2} alt='second img' height={500} className="d-block w-100" />
+                        <Image src={Preview2} alt='second img' className="d-block w-100 home-img" />
                         <Carousel.Caption>
                             <h3>Axis Collection </h3>
                             <p>The live-anywhere, do-anything sofa. This timeless collection invites families to pile on its comfortable cushions clad in high performance fabrics</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={Preview3} alt='third img' height={500} className="d-block w-100" />
+                        <img src={Preview3} alt='third img' className="d-block w-100 home-img" />
                         <Carousel.Caption>
                             <h3>Gather Collection</h3>
                             <p>
@@ -63,7 +63,7 @@ function Home() {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={Preview4} alt='fourth img' height={500} className="d-block w-100" />
+                        <img src={Preview4} alt='fourth img' className="d-block w-100 home-img" />
                         <Carousel.Caption>
                             <h3>Bucktown Collection</h3>
                             <p>
@@ -77,7 +77,7 @@ function Home() {
             <Col className='mt-5 pt-5 w-100'>
                 <Row>
 
-                    <img src={HomeGif} alt='gif-home' style={{ height: "600px" }} />
+                    <img src={HomeGif} alt='gif-home' className='home-img' />
 
                 </Row>
 
@@ -96,7 +96,7 @@ function Home() {
 
                     </Col>
                     <Col className='w-75' style={{ paddingTop: "10%" }}>
-                        <img src={HomeGrown} alt='home-grown' height={800} className='w-100' />
+                        <img src={HomeGrown} alt='home-grown' className='w-100 home-grown-img' />
                     </Col>
                 </Row>
             </Col>
