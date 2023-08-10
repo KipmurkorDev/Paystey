@@ -37,9 +37,9 @@
   }
   @media only screen and (max-width: 768px) {
     .home-img {
-      height: 300px;
+      height: 400px;
     }
     .home-grown-img{
-      height: 400px;
+      height: 500px;
     }
   }
