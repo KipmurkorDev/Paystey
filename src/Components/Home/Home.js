@@ -16,12 +16,12 @@ function Home() {
     return (
         <Container fluid style={{ paddingLeft: "0%" }} className='overflow-hidden'>
             <Col className='bg-image'>
-                <Row className='px-3 g-col-6 h1 pt-5'>
-                    <p className='mx-5'>New & Designed
+                <Row className='px-2 g-col-6 h1 pt-5'>
+                    <p className='mx-2'>New & Designed
                         <br />
                         with purpose
                     </p>
-                    <Button type="button" className="btn btn-dark w-25 mx-5 mb-5">Shop Sofas</Button>
+                    <Button type="button" className="btn btn-dark w-25 mx-4 mb-5">Shop Sofas</Button>
                 </Row>
                 <Row className='py-5 text-light'>
                     <Col style={{ textAlign: 'right', marginRight: "30px" }}>
