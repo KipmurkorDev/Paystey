@@ -33,15 +33,14 @@
     height: 550px;
   }
   .home-grown-img{
-    height: 800px;
+    height: 600px;
   }
   @media only screen and (max-width: 768px) {
     .home-img {
       height: 400px;
-
     }
     .home-grown-img{
-      height: 400px;
-      width: 800px;
+      height: 300px;
+      width: 110%;
     }
   }
