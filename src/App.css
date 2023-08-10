@@ -52,6 +52,7 @@
     width:125%;
   }
   .bg-image{
-width: 700px;
+    background-size: 140%;
+    height: 100%;
   }
 }

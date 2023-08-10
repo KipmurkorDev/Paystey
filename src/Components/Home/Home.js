@@ -15,8 +15,8 @@ function Home() {
     };
     return (
         <Container fluid style={{ paddingLeft: "0%" }} className='overflow-hidden'>
-            <Col className='bg-image pt-5 ml-5'>
-                <Row className='px-3 g-col-6 h1'>
+            <Col className='bg-image'>
+                <Row className='px-3 g-col-6 h1 pt-5'>
                     <p className='mx-5'>New & Designed
                         <br />
                         with purpose
@@ -80,7 +80,7 @@ function Home() {
             </Col>
             <Col className='px-5' style={{ backgroundColor: "#FDF9F5" }}>
                 <Row>
-                    <Col className='w-25 text-center' style={{ paddingTop: "40%" }}>
+                    <Col className='w-25 text-center' style={{ paddingTop: "20%" }}>
                         <h1 className='text-dark'>Homegrown</h1>
                         <p>
                             We love all of our beautiful brands here at Paystey but there is a special place in our heart for the Austrilia brands.
@@ -88,7 +88,7 @@ function Home() {
                         </p>
                         <button className="btn btn-dark mb-5">Find Out More</button>
                     </Col>
-                    <Col className='w-75' style={{ paddingTop: "30%" }}>
+                    <Col className='w-75' style={{ paddingTop: "10%" }}>
                         <img src={HomeGrown} alt='home-grown' className='home-grown-img' />
                     </Col>
                 </Row>
