@@ -23,7 +23,7 @@ function Home() {
                     </p>
                     <Button type="button" className="btn btn-dark w-25 mx-4 mb-5">Shop Sofas</Button>
                 </Row>
-                <Row className='py-5 text-light'>
+                <Row className='py-5 text-dark'>
                     <Col style={{ textAlign: 'right', marginRight: "30px" }}>
                         <h1> Non-fungible token</h1>
                         <p> The World's Largest
