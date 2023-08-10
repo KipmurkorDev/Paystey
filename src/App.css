@@ -38,8 +38,10 @@
   @media only screen and (max-width: 768px) {
     .home-img {
       height: 400px;
+
     }
     .home-grown-img{
-      height: 500px;
+      height: 400px;
+      width: 300px;
     }
   }
