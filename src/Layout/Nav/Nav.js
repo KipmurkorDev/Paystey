@@ -72,13 +72,13 @@ function NavBar() {
                                 Basball
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link as={Link} to="/blog" className='py-sm-3 px-sm-3 text-light footer-link"'>Blog</Nav.Link>
-                        <Nav.Link as={Link} to="/about" className='py-sm-3 px-sm-3 text-light footer-link"'>About</Nav.Link>
-                        <Nav.Link as={Link} to="/search" className='py-sm-3 px-sm-3 text-light'>Search</Nav.Link>
+                        <Nav.Link as={Link} to="/blog" className='py-sm-3 px-sm-3 text-light footer-link'>Blog</Nav.Link>
+                        <Nav.Link as={Link} to="/about" className='py-sm-3 px-sm-3 text-light footer-link'>About</Nav.Link>
+                        <Nav.Link as={Link} to="/search" className='py-sm-3 px-sm-3 text-light footer-link'>Search</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <Nav>
-                    <Nav.Link as={Link} to="/profile" className='py-sm-3 px-sm-3 text-light font-weight-bold'>Login</Nav.Link>
+                    <Nav.Link as={Link} to="/profile" className='py-sm-3 px-sm-3 text-light font-weight-bold footer-link'>Login</Nav.Link>
 
                 </Nav>
             </Container>
