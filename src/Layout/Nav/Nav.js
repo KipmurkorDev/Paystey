@@ -32,53 +32,53 @@ function NavBar() {
                     <Nav className="h6">
                         <Nav.Link as={Link} to="/" className='py-sm-3 px-sm-3 text-light footer-link '>Home</Nav.Link>
                         <NavDropdown title={<span className="text-light my-auto footer-link">Shop</span>} show={select} onMouseEnter={handleShow} onMouseLeave={handleHide} className='py-sm-2 px-sm-3'>
-                            <NavDropdown.Item as={Link} to="/furniture" >
+                            <NavDropdown.Item as={Link} to="/" >
                                 Furniture
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/outdoor" >
+                            <NavDropdown.Item as={Link} to="/" >
                                 Outdoor
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/kitchen">
+                            <NavDropdown.Item as={Link} to="/">
                                 Kitchen
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/bath-bedding" >
+                            <NavDropdown.Item as={Link} to="/" >
                                 Bath & Bedding
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/lighting" >
+                            <NavDropdown.Item as={Link} to="/" >
                                 Lighting
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/widoow-door">
+                            <NavDropdown.Item as={Link} to="/">
                                 Widow & Dooor
                             </NavDropdown.Item>
 
                         </NavDropdown>
                         <NavDropdown title={<span className="text-light my-auto footer-link">NFT</span>} show={show} onMouseEnter={showDropdown} onMouseLeave={hideDropdown} className='py-sm-2 px-sm-3'>
-                            <NavDropdown.Item as={Link} to="/basketball">
+                            <NavDropdown.Item as={Link} to="/">
                                 Basketball
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/football">
+                            <NavDropdown.Item as={Link} to="/">
                                 Football
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/pokemon">
+                            <NavDropdown.Item as={Link} to="/">
                                 Pokemon
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/soccer">
+                            <NavDropdown.Item as={Link} to="/">
                                 Soccer
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/hockey">
+                            <NavDropdown.Item as={Link} to="/">
                                 Hockey
                             </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/baseball">
+                            <NavDropdown.Item as={Link} to="/">
                                 Basball
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link as={Link} to="/blog" className='py-sm-3 px-sm-3 text-light footer-link'>Blog</Nav.Link>
+                        <Nav.Link as={Link} to="/" className='py-sm-3 px-sm-3 text-light footer-link'>Blog</Nav.Link>
                         <Nav.Link as={Link} to="/about" className='py-sm-3 px-sm-3 text-light footer-link'>About</Nav.Link>
-                        <Nav.Link as={Link} to="/search" className='py-sm-3 px-sm-3 text-light footer-link'>Search</Nav.Link>
+                        <Nav.Link as={Link} to="/" className='py-sm-3 px-sm-3 text-light footer-link'>Search</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <Nav>
-                    <Nav.Link as={Link} to="/profile" className='py-sm-3 px-sm-3 text-light font-weight-bold footer-link'>Login</Nav.Link>
+                    <Nav.Link as={Link} to="/" className='py-sm-3 px-sm-3 text-light font-weight-bold footer-link'>Login</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
