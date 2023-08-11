@@ -51,7 +51,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="row footer-link" style={{ paddingTop: "10%", paddingBottom: "2%" }}>
+                <div className="row" style={{ paddingTop: "10%", paddingBottom: "2%" }}>
                     <p> Copyright &copy; {year} <span>Paystey Ltd- All Rights Reserved</span>  </p>
                 </div>
             </div>
