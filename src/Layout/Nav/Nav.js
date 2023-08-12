@@ -32,7 +32,7 @@ function NavBar() {
                     <Nav className="h6">
                         <Nav.Link as={Link} to="/" className='py-sm-3 px-sm-3 text-light footer-link '>Home</Nav.Link>
                         <NavDropdown title={<span className="text-light my-auto footer-link">Shop</span>} show={select} onMouseEnter={handleShow} onMouseLeave={handleHide} className='py-sm-2 px-sm-3'>
-                            <NavDropdown.Item as={Link} to="/" >
+                            <NavDropdown.Item as={Link} to="/furniture" >
                                 Furniture
                             </NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/" >

@@ -50,7 +50,7 @@ function About() {
           <h6>Founder</h6>
         </Col>
         <Col className='px-5'>
-          <i class="fa fa-user" aria-hidden="true"></i>
+          <i className="fa fa-user" aria-hidden="true"></i>
           <p> Kim Lee </p>
           <h6>Team Member</h6>
         </Col>

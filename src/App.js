@@ -4,6 +4,7 @@ import Home from './Components/Home/Home';
 import Footer from './Layout/Footer/Footer';
 import NavBar from './Layout/Nav/Nav';
 import { Route, Routes } from 'react-router';
+import Furniture from './Pages/Furniture';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
     <Routes> 
     <Route index element={<Home/>}/>
     <Route path='/about' element={<About/>}/>
+    <Route path='/furniture' element={<Furniture/>}/>
+
     </Routes>
     <Footer/>
     </div>
