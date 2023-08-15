@@ -14,7 +14,7 @@ function Home() {
         setIndex(selectedIndex);
     };
     return (
-        <Container fluid style={{ paddingLeft: "0%", backgroundColor:"#FDF9F5" }} className='overflow-hidden'>
+        <Container fluid style={{ paddingLeft: "0%", backgroundColor: "#FDF9F5", width:"100vw" }} className='overflow-hidden'>
             <Col className='bg-image'>
 
                 <Row className='py-5'>
@@ -33,7 +33,7 @@ function Home() {
                 <h1 className='h3 mb-4'>Must Buy </h1>
                 <p> Some of our favourite NFT picks this week.</p></Col>
             <Col>
-                <Carousel activeIndex={index} onSelect={handleSelect} fade slide={false} className='w-100'>
+                <Carousel activeIndex={index} onSelect={handleSelect} fade slide={false}>
                     <Carousel.Item className='center-block'>
                         <img src={Preview1} alt='fist img' className="home-img img-fluid w-100" />
                         <Carousel.Caption className='text-white'>
