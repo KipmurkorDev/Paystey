@@ -14,13 +14,12 @@ function Footer() {
                     <div className="col-sm">
                         <h5 className='h-6 my-0'>COMPANY </h5>
                         <div>
-                            <Link className='footer-link'>About Us</Link>
+                            <Link className='footer-link' to="/about">About Us</Link>
                             <Link className='footer-link'>How it Works</Link>
                             <Link className='footer-link'>Contact Us</Link>
                             <Link className='footer-link'>Careers</Link>
-
+                            <Link as={Link} to="/" className='py-sm-3 px-sm-3 text-light footer-link'>Blog</Link>
                         </div>
-
                     </div>
                     <div className="col-sm">
                         <h5 className='h-6 text-bold my-0'>SHOP</h5>

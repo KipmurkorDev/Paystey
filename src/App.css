@@ -10,6 +10,7 @@
   background-size: 100%;
   background-position: center center;
   padding-left: 0;
+  height: 500px;  
 }
 
 .app {
@@ -35,11 +36,11 @@
 }
 
 .home-img {
-  height: 550px;
+  height: 600px;
 }
 
 .home-grown-img {
-  height: 600px;
+  height: 400px;
   width: 100%;
 }
 
