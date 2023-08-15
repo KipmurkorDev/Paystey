@@ -24,11 +24,10 @@ function NavBar() {
                 <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
                     <Nav className="h6">
                         <Nav.Link as={Link} to="/" className='py-sm-3 px-sm-3 text-light footer-link '>Home</Nav.Link>
-                        <Nav.Link as={Link} to="/" className='py-sm-3 px-sm-3 text-light footer-link '>Chess</Nav.Link>
+                        <Nav.Link as={Link} to="/nft-chess" className='py-sm-3 px-sm-3 text-light footer-link '>Chess</Nav.Link>
                         <Nav.Link as={Link} to="/" className='py-sm-3 px-sm-3 text-light footer-link '>Pokemon</Nav.Link>
                         <Nav.Link as={Link} to="/" className='py-sm-3 px-sm-3 text-light footer-link '>Basketball</Nav.Link>
                         <Nav.Link as={Link} to="/" className='py-sm-3 px-sm-3 text-light footer-link '>Bassball</Nav.Link>
-
                         <NavDropdown title={<span className="text-light my-auto footer-link">Football</span>} show={show} onMouseEnter={showDropdown} onMouseLeave={hideDropdown} className='py-sm-2 px-sm-3'>
                             <NavDropdown.Item as={Link} to="/">
                             Premier League

@@ -4,7 +4,7 @@ import Home from './Components/Home/Home';
 import Footer from './Layout/Footer/Footer';
 import NavBar from './Layout/Nav/Nav';
 import { Route, Routes } from 'react-router';
-import FootBallNFT from './Pages/FootBallNFT';
+import Chess from './Pages/Chess';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
     <Routes> 
     <Route index element={<Home/>}/>
     <Route path='/about' element={<About/>}/>
-    <Route path='/nft-footbal' element={<FootBallNFT/>}/>
+    <Route path='/nft-chess' element={<Chess/>}/>
     </Routes>
     <Footer/>
     </div>

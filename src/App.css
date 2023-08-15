@@ -3,7 +3,7 @@
 }
 
 .bg-image {
-  background-image: url('./Assests/Images/home-img.jpg');
+  background-image: url('./Assests/LayoutImages/home-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;

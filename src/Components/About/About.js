@@ -1,18 +1,21 @@
 import React from 'react'
 import { Col, Container, Image, Row } from 'react-bootstrap'
-import About1 from '../../Assests/Images/About1.jpg'
-import About2 from '../../Assests/Images/About2.jpg'
-import About3 from '../../Assests/Images/About3.jpg'
-import Founder from '../../Assests/Images/founder.jpg'
+import About1 from '../../Assests/LayoutImages/About1.jpg'
+import About2 from '../../Assests/LayoutImages/About2.jpg'
+import About3 from '../../Assests/LayoutImages/About3.jpg'
+import Founder from '../../Assests/LayoutImages/founder.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobe, faCertificate, faGift, faHandshake} from '@fortawesome/free-solid-svg-icons'
+import {faCertificate, faGift, faHandshake } from '@fortawesome/free-solid-svg-icons'
 function About() {
   return (
     <Container style={{ backgroundColor: "#F7F0EA" }} fluid>
       <Row>
-        <Col style={{ paddingTop: "15%" }} className='w-50 text-center'>
+        <Col style={{ paddingTop: "10%" }} className='w-50 text-center'>
           <h1> Our Brand</h1>
-          <p> At Paystey, we are driven by a singular mission - to redefine the e-commerce experience through cutting-edge payment solutions. Our dedication to excellence and innovation fuels our commitment to delivering seamless and secure payment options to our valued customers.</p>
+          <p> Paystey stands as a thriving and dynamic collective of artists, collectors, curators, and innovators united by the common goal of creating NFT-native photography.
+            Our vision sees the blockchain as the premier platform for the initiation of cultural exchanges involving photographic LayoutImages.
+            By carefully curating content, we empower collectors to champion and amass new creations from a wide array of artists spanning the globe.
+          </p>
         </Col>
         <Col className='w-50'>
           <Image src={About1} className='pt-5 mt-5 w-100' />
@@ -24,19 +27,23 @@ function About() {
           <Image src={About2} className='w-100' />
 
         </Col>
-        <Col style={{ paddingTop: "20%" }} className='w-50 text-center'>
+        <Col style={{ paddingTop: "10%" }} className='w-50 text-center'>
           <h1> Our why</h1>
-          <p> We believe in the boundless potential of human ingenuity and ambition. Our "why" centers on unlocking possibilities for individuals and businesses alike. We envision a world where every aspiration, no matter how grand, is within reach. By offering versatile payment solutions that transcend borders and currencies, we empower dreams to take flight.</p>
+          <p>
+            We are driven by our belief that the blockchain holds the potential to revolutionize how cultural exchanges centered around photographic images take place.
+            We envision the blockchain not only as a platform but as the very cornerstone for these exchanges, providing a unique and secure space for artists' work to find its cultural resonance.
+          </p>
         </Col>
       </Row>
       <Row style={{ paddingBottom: "6%" }}>
-        <Col style={{ paddingTop: "15%" }} className='w-50 text-center'>
+        <Col style={{ paddingTop: "8%" }} className='w-50 text-center'>
           <h1> Our approach</h1>
-          <p> At Paystey, our approach to payments is more than a strategy; it's a commitment to redefining the way transactions are conducted.
-           Our approach encompasses the principles, technologies, and values that guide every aspect of our payment solutions.
-           Central to our approach is the integration of both Bitcoin and Dollars. We recognize that in today's global landscape, choice matters. 
-           By providing the flexibility to transact in either cryptocurrency or traditional currency, we empower you to make transactions aligned with your preferences.
-            This dual currency approach is a testament to our commitment to adaptability and choice.</p>
+          <p>
+            At Paystey, our approach is centered around fostering a vibrant and dynamic ecosystem that brings together artists, collectors, curators, and innovators.
+            We are united by a collective purpose: the advancement of NFT-native photography, uniting our diverse talents and perspectives to shape this emerging art form.
+            Our driving force stems from our unwavering belief in the blockchain's potential to redefine cultural exchanges centered around photographic imagery.
+            Beyond being a mere platform, we view the blockchain as the cornerstone of these exchanges, providing a secure and unparalleled space for artists' work to resonate culturally.
+          </p>
         </Col>
         <Col className='w-50'>
           <Image src={About3} className='w-100' />
@@ -56,29 +63,31 @@ function About() {
         </Col>
       </Row>
       <Row className='text-center' style={{ paddingBottom: "10%" }}>
-        <Col>
-          <FontAwesomeIcon icon={faGlobe} />
-          <h6> Worldwide Shipping</h6>
-          <p> Our worldwide shipping service is more than just logistics; it's about building bridges across continents. We believe that products have the power to transcend geographical boundaries, connecting people and cultures.
-           Through our expansive shipping network, we bring the world to your doorstep, enabling you to access a global marketplace without leaving your home.</p>
-        </Col>
+
         <Col>
           <FontAwesomeIcon icon={faCertificate} />
           <h6> Best Quality</h6>
-          <p> At Paystey, the pursuit of the highest quality is etched into our DNA.
-           We understand that when you choose our products and services, you're not just seeking functionality; you're seeking an experience that exceeds expectations. Our commitment to best quality is a promise to deliver excellence in every facet of what we offer.</p>
+          <p>
+            At Paystey, we operate with a core commitment to cultivating a vibrant and dynamic ecosystem that unites artists, collectors, curators, and innovators.
+            Our shared objective revolves around advancing the realm of NFT-native photography, harnessing our varied talents and viewpoints to shape the evolution of this nascent art form.
+          </p>
         </Col>
         <Col>
           <FontAwesomeIcon icon={faGift} />
           <h6> Best Offers</h6>
-          <p> At Paystey, our commitment to you goes beyond transactions; it extends to providing the best offers that truly enhance your experience. 
-          We understand that value is not just about affordability; it's about ensuring that every interaction with us leaves you feeling valued and satisfied. Our best offers are a reflection of our dedication to delivering unparalleled value and enriching your journey with us.</p>
+          <p>
+            Presenting our exclusive offers at Paystey, where unparalleled opportunities await both artists and collectors alike.
+            For artists, our platform serves as a launchpad to showcase your NFT-native photography to a global audience of enthusiasts and connoisseurs.
+            Our meticulous curation ensures your work finds its rightful place in the spotlight, as we believe in championing the uniqueness of each creator's perspective.
+          </p>
         </Col>
         <Col>
           <FontAwesomeIcon icon={faHandshake} />
           <h6> Secure Payments</h6>
-          <p> At Paystey, security is not just a feature; it's the foundation upon which we build trust and enable seamless transactions. 
-          Our commitment to secure payment is unwavering, ensuring that your sensitive information is safeguarded, your transactions are protected, and your confidence in us is well-placed.</p>
+          <p>
+            Rest assured, at Paystey, we prioritize the security of your payments with the utmost diligence.
+            Our advanced payment infrastructure is fortified with cutting-edge encryption protocols and industry-standard security measures, ensuring your financial transactions are shielded from any potential threats.
+          </p>
         </Col>
       </Row>
     </Container>

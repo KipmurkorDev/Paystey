@@ -14,31 +14,31 @@ function Footer() {
                     <div className="col-sm">
                         <h5 className='h-6 my-0'>Company </h5>
                         <div>
-                            <Link className='footer-link' to="/about">About</Link>
-                            <Link className='footer-link'>Impact</Link>
-                            <Link className='footer-link'>Contact</Link>
-                            <Link className='footer-link'>Careers</Link>
-                            <Link as={Link} to="/" className='footer-link'>Blog</Link>
+                            <Link className='footer-link' to="/about" target="_blank" rel="noopener noreferrer">About</Link>
+                            <Link className='footer-link'  target="_blank" rel="noopener noreferrer">Impact</Link>
+                            <Link className='footer-link' target="_blank" rel="noopener noreferrer">Contact</Link>
+                            <Link className='footer-link' target="_blank" rel="noopener noreferrer">Careers</Link>
+                            <Link as={Link} to="/" className='footer-link' target="_blank" rel="noopener noreferrer">Blog</Link>
                         </div>
                     </div>
 
                     <div className="col-sm">
                         <h5 className='h-6 my-0'>Support</h5>
                         <div>
-                            <Link className='footer-link'>Help</Link>
-                            <Link className='footer-link'>Pricing</Link>
-                            <Link className='footer-link'>Terms</Link>
-                            <Link className='footer-link'>Policies </Link>
-                            <Link className='footer-link'>Reviews </Link>
+                            <Link className='footer-link' target="_blank" rel="noopener noreferrer">Help</Link>
+                            <Link className='footer-link' target="_blank" rel="noopener noreferrer">Pricing</Link>
+                            <Link className='footer-link' target="_blank" rel="noopener noreferrer">Terms</Link>
+                            <Link className='footer-link' target="_blank" rel="noopener noreferrer">Policies </Link>
+                            <Link className='footer-link' target="_blank" rel="noopener noreferrer">Reviews </Link>
                         </div>
                     </div>
                     <div className="col-sm">
                         <h5 className='h-6 text-bold my-0'>Resources</h5>
                         <div>
-                            <Link to='/furniture' className='footer-link'> API</Link>
-                            <Link to='/collection' className='footer-link'> White Paper</Link>
-                            <Link to='/collection' className='footer-link'>Partners </Link>
-                            <Link to='/collection' className='footer-link'>Press </Link>
+                            <Link to='/furniture' className='footer-link' target="_blank" rel="noopener noreferrer"> API</Link>
+                            <Link to='/collection' className='footer-link' target="_blank" rel="noopener noreferrer"> White Paper</Link>
+                            <Link to='/collection' className='footer-link' target="_blank" rel="noopener noreferrer">Partners </Link>
+                            <Link to='/collection' className='footer-link' target="_blank" rel="noopener noreferrer">Press </Link>
 
                         </div>
                     </div>

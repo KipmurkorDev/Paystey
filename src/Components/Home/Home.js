@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { Col, Container, Row, Carousel, Button, Image } from 'react-bootstrap'
-import Preview1 from '../../Assests/Images/preview-1.jpg'
-import Preview2 from '../../Assests/Images/preview-2.jpg'
-import Preview3 from '../../Assests/Images/preview-3.jpg'
-import Preview4 from '../../Assests/Images/preview-4.jpg'
-import HomeGif from '../../Assests/Images/a828fe17f0ad917ef2b3d8c2903826fc.gif'
-import HomeGrown from '../../Assests/Images/home-grown.webp'
+import Preview1 from '../../Assests/LayoutImages/preview-1.jpg'
+import Preview2 from '../../Assests/LayoutImages/preview-2.jpg'
+import Preview3 from '../../Assests/LayoutImages/preview-3.jpg'
+import Preview4 from '../../Assests/LayoutImages/preview-4.jpg'
+import HomeGif from '../../Assests/LayoutImages/a828fe17f0ad917ef2b3d8c2903826fc.gif'
+import HomeGrown from '../../Assests/LayoutImages/home-grown.webp'
 function Home() {
 
     const [index, setIndex] = useState(0);
@@ -71,9 +71,10 @@ function Home() {
                     <Col className='w-25 text-center' style={{ paddingTop: "20%" }}>
                         <h1 className='text-dark'>Homegrown</h1>
                         <p>
-                            We love all of our beautiful brands here at Paystey but there is a special place in our heart for the Australia, French and American brands.
-                            We have made it easy for you to find a little about each of these amazing brands.
-                        </p>
+                        Embrace the boundless possibilities of the digital realm with the pioneering spirit of Paystey Company. 
+                        Just as Paystey redefines innovation, let's redefine our own potential – just like digital fashion and NFTs have reshaped the world of creativity.
+                         Let's dare to dream, explore new horizons, and wear our aspirations proudly, just as we adorn ourselves with the limitless possibilities that tomorrow brings.
+</p>
                         <button className="btn btn-dark mb-5">Find Out More</button>
                     </Col>
                     <Col className='w-100' style={{ paddingTop: "10%" }}>
