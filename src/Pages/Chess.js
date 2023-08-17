@@ -1,7 +1,9 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+
 function Chess() {
-  let data = ["heellllleelele", "hehehhehehehehheheheehehehe", "hellelleoeoeoeo", "yyeryeyeyeyeyhesb bsnsnsnsnsn"]
+
+  let data=["helloe", "heellelelel"]
   return (
     <Container fluid style={{ padding: "4% 8%", backgroundColor: "#FDF9F5" }}>
       <Row className='gy-4'>
