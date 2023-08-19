@@ -1,12 +1,12 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
-import Image1 from "../Assests/ChessImages/0001.jpg"
-import Image2 from "../Assests/ChessImages/002.jpg"
-import Image3 from "../Assests/ChessImages/003.jpg"
-import Image4 from "../Assests/ChessImages/004.jpg"
+import Image1 from "../Assests/ChessImages/017.jpg"
+import Image2 from "../Assests/ChessImages/018.jpg"
+import Image3 from "../Assests/ChessImages/019.jpg"
+import Image4 from "../Assests/ChessImages/020.jpg"
 import { Link } from 'react-router-dom'
 
-function Chess() {
+function Entertainment() {
   let data = [
 
     {
@@ -111,4 +111,4 @@ function Chess() {
   )
 }
 
-export default Chess
+export default Entertainment

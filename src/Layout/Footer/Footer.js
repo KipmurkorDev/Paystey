@@ -35,10 +35,10 @@ function Footer() {
                     <div className="col-sm">
                         <h5 className='h-6 text-bold my-0'>Resources</h5>
                         <div>
-                            <Link to='/furniture' className='footer-link' target="_blank" rel="noopener noreferrer"> API</Link>
-                            <Link to='/collection' className='footer-link' target="_blank" rel="noopener noreferrer"> White Paper</Link>
-                            <Link to='/collection' className='footer-link' target="_blank" rel="noopener noreferrer">Partners </Link>
-                            <Link to='/collection' className='footer-link' target="_blank" rel="noopener noreferrer">Press </Link>
+                            <Link to='/' className='footer-link' target="_blank" rel="noopener noreferrer"> API</Link>
+                            <Link to='/' className='footer-link' target="_blank" rel="noopener noreferrer"> White Paper</Link>
+                            <Link to='/' className='footer-link' target="_blank" rel="noopener noreferrer">Partners </Link>
+                            <Link to='/' className='footer-link' target="_blank" rel="noopener noreferrer">Press </Link>
 
                         </div>
                     </div>
