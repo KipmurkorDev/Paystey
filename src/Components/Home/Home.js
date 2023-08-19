@@ -7,14 +7,10 @@ import Preview4 from '../../Assests/LayoutImages/preview-4.jpg'
 import HomeGif from '../../Assests/LayoutImages/a828fe17f0ad917ef2b3d8c2903826fc.gif'
 import HomeGrown from '../../Assests/LayoutImages/home-grown.webp'
 function Home() {
-
     const [index, setIndex] = useState(0);
-
-    const handleSelect = (selectedIndex) => {
-        setIndex(selectedIndex);
-    };
+    const handleSelect = (selectedIndex) => { setIndex(selectedIndex) };
     return (
-        <Container fluid style={{ paddingLeft: "0%", backgroundColor: "#FDF9F5", width:"100vw" }} className='overflow-hidden'>
+        <Container fluid style={{ paddingLeft: "0%", backgroundColor: "#FDF9F5", width: "100vw" }} className='overflow-hidden'>
             <Col className='bg-image'>
 
                 <Row className='py-5'>
@@ -68,16 +64,16 @@ function Home() {
             </Col>
             <Col className='px-5'>
                 <Row>
-                    <Col className=' text-center' style={{ paddingTop: "20%" }}  xs={12} lg={6} sm={12} xl={6}>
+                    <Col className=' text-center' style={{ paddingTop: "20%" }} xs={12} lg={6} sm={12} xl={6}>
                         <h1 className='text-dark'>Homegrown</h1>
                         <p>
-                        Embrace the boundless possibilities of the digital realm with the pioneering spirit of Paystey Company. 
-                        Just as Paystey redefines innovation, let's redefine our own potential – just like digital fashion and NFTs have reshaped the world of creativity.
-                         Let's dare to dream, explore new horizons, and wear our aspirations proudly, just as we adorn ourselves with the limitless possibilities that tomorrow brings.
-</p>
+                            Embrace the boundless possibilities of the digital realm with the pioneering spirit of Paystey Company.
+                            Just as Paystey redefines innovation, let's redefine our own potential – just like digital fashion and NFTs have reshaped the world of creativity.
+                            Let's dare to dream, explore new horizons, and wear our aspirations proudly, just as we adorn ourselves with the limitless possibilities that tomorrow brings.
+                        </p>
                         <button className="btn btn-dark mb-5">Find Out More</button>
                     </Col>
-                    <Col style={{paddingTop: "10%" }} xs={12}  sm={12} lg={6} xl={6}>
+                    <Col style={{ paddingTop: "10%" }} xs={12} sm={12} lg={6} xl={6}>
                         <img src={HomeGrown} alt='home-grown' className='home-grown-img' />
                     </Col>
                 </Row>
