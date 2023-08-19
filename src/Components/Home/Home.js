@@ -68,7 +68,7 @@ function Home() {
             </Col>
             <Col className='px-5'>
                 <Row>
-                    <Col className='w-25 text-center' style={{ paddingTop: "20%" }}>
+                    <Col className=' text-center' style={{ paddingTop: "20%" }}  xs={12} lg={6} sm={12} xl={6}>
                         <h1 className='text-dark'>Homegrown</h1>
                         <p>
                         Embrace the boundless possibilities of the digital realm with the pioneering spirit of Paystey Company. 
@@ -77,7 +77,7 @@ function Home() {
 </p>
                         <button className="btn btn-dark mb-5">Find Out More</button>
                     </Col>
-                    <Col className='w-100' style={{ paddingTop: "10%" }}>
+                    <Col style={{paddingTop: "10%" }} xs={12}  sm={12} lg={6} xl={6}>
                         <img src={HomeGrown} alt='home-grown' className='home-grown-img' />
                     </Col>
                 </Row>
